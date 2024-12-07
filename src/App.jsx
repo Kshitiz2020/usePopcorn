@@ -232,10 +232,10 @@ export default function App() {
       </NavBar>
 
       <Main>
-      {/*   <Box> */}
-      {/*     <Mo */}vieList movies={movies} />
-      {/*   </Box */}>
-      {/*   <Box> */}
+        <Box>
+          <MovieList movies={movies} />
+        </Box>
+        <Box>
           <>
             <Summary watched={watched} />
             <WatchedMoviesList watched={watched} />
